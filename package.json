@@ -1,0 +1,22 @@
+{
+  "name": "readmd",
+  "version": "1.0.0",
+  "description": "An overview of how to create a Readme.md file using Node.js and Inquirer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prnessy23/readmd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prnessy23/readmd/issues"
+  },
+  "homepage": "https://github.com/prnessy23/readmd#readme",
+  "dependencies": {
+    "inquirer": "^9.1.4"
+  }
+}
