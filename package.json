@@ -1,7 +1,7 @@
 {
   "name": "readmd",
   "version": "1.0.0",
-  "description": "An overview of how to create a Readme.md file using Node.js and Inquirer",
+  "description": "An overview of how to create a README.md file using Node.js and Inquire git ## User Story AS A developer I WANT a README generator SO THAT I can quickly create a professional README for a new project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

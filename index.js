@@ -1,6 +1,6 @@
-const inquirer = require('./assets/node_modules/inquirer');
-const fs = require('fs');
-const goToGmark = require('./assets/utils/generateMarkdown');
+ const inquirer = ('./assets/node_modules/inquirer');
+ const fs = require('fs');
+const goToGM =require('./assets/Utilities/GenerateMarkdown.js');
 
 const questions = [
     {
@@ -9,15 +9,23 @@ const questions = [
         name: 'title',
 
     },
+    { 
+        type: 'input',
+        message: 'What is your Github user name',
+        name: 'gitName',
+
+
+    },
+    
     {
         type: 'input',
-        message: 'Describe your project?',
+        message: 'Please write a short description describing your site?',
         name: 'description',
     },
     {
         type: 'input',
-        message: 'What are the instructions for installation?',
-        name: 'title',
+        message: 'What commands should be run to install dependencies?(npm i)',
+        name: 'install',
     },
     {
         type: 'input',
@@ -25,6 +33,11 @@ const questions = [
         name: 'usage',
 
 
+    },
+    {
+        type: 'input',
+        message: 'What command should be run for testing purposes.(npm test) ',
+        name: 'tests',
     },
     {
         type: 'list',
@@ -36,7 +49,7 @@ const questions = [
     {
         type: 'input',
         message: 'What is your name',
-        name: 'name',
+        name: 'Username',
     
     },
     {
@@ -60,8 +73,8 @@ function init(){
     inquirer
     .prompt(questions)
     .then(answers => {
-        const fileName = ansers.title;
-        writetoFile(fileName,goToGmark(answers))
+        const fileName = answers.title;
+        writetoFile(fileName,goToGM(answers))
     })
 }
 
