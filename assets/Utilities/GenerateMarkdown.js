@@ -47,89 +47,92 @@ function generateMarkdown(data) {
     } else {
         var image3 ="";
     }
-
-
 }
+
+// }
 // return ${data.title}
-
-
-return {licenseBadge};
-
-
-
-___
-## Author
-
- ${data.name}
-
-#Email 
-
-${data.email}
-
-____
-
-## Table of Contents
-
-[Description](##Description)
-
-[Installation](##Installation)
-
-[Usage](##Usage)
-
-[Tests](##Tests)
-
-[License](##License)
-
-___
-
-##Description
-
-${data.description}
-
-___
-
-##Installation
-
-${data.installation}
-
-___
-
-##Usage
-
-${data.usage}
-
-___
-
-##Tests
-
-${data.tests}
-
-___
-
-##License
-${data.license}
-
-[licenseLink]
-
-___
-##Questions
-
-Any questions or concerns can be addressed to me at ${data.email}
-
-___
-
-[Contributing]
-
-${dataContribute}
-
-If you would like to contribute, please feel free to contact me.
-
-${licenseLink}
-
-module.exports =generateMarkdown;
-
-
-
-
-export default renderLicenseBadge
-node index.js
+// 
+// 
+// return {licenseBadge};
+// 
+// 
+// function generateMarkdown(data){
+// ___
+// ## Author
+// 
+//  ${data.name}
+// 
+// #Email 
+// 
+// ${data.email}
+// 
+// ____
+// 
+// ## Table of Contents
+// 
+// [Description](##Description)
+// 
+// [Installation](##Installation)
+// 
+// [Usage](##Usage)
+// 
+// [Tests](##Tests)
+// 
+// [License](##License)
+// 
+// ___
+// 
+// ##Description
+// 
+// ${data.description}
+// 
+// ___
+// 
+// ##Installation
+// 
+// ${data.installation}
+// 
+// ___
+// 
+// ##Usage
+// 
+// ${data.usage}
+// 
+// ___
+// 
+// ##Tests
+// 
+// ${data.tests}
+// 
+// ___
+// 
+// ##License
+// ${data.license}
+// 
+// [licenseLink]
+// 
+// ___
+// ##Questions
+// 
+// Any questions or concerns can be addressed to me at ${data.email}
+// 
+// ___
+// 
+// [Contributing]
+// 
+// ${dataContribute}
+// 
+// If you would like to contribute, please feel free to contact me.
+// 
+// ${licenseLink}
+// 
+// }
+// 
+// module.exports =generateMarkdown;
+// 
+// 
+// 
+// 
+// export default renderLicenseBadge
+// node index.js
+//}
