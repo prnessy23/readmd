@@ -53,7 +53,7 @@ export default renderLicenseBadge
 function generateMarkdown(data){
     return '# ${data.title}'
 ___
-## Author
+`## Author
 
  ${data.name}
 
@@ -122,7 +122,7 @@ If you would like to contribute, please feel free to contact me.
 
 }
 
-module.exports =generateMarkdown;
+module.exports =generateMarkdown;`
 
 
 
