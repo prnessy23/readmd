@@ -1,6 +1,6 @@
  const inquirer = require('inquirer');
  const fs = require('fs');
-const goToGM =require('./assets/util/generatemarkdown');
+const goToGM =require('./assets/utils/generateMarkdown');
 
 const questions = [
     {
@@ -43,7 +43,7 @@ const questions = [
         type: 'list',
         message: 'Please select a license for your project?',
         name:'license', 
-        choices: [ 'MIT', 'Apache 2.0','BSD 3-Clause', 'none'],
+        choices: [ 'MIT', 'Apache 2.0','BSD 3-Clause','Boost Software License 1.0', 'none'],
 
     },
     {
