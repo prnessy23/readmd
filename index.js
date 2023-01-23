@@ -1,6 +1,6 @@
- const inquirer = ('./assets/node_modules/inquirer');
+ const inquirer =require('inquirer');
  const fs = require('fs');
-const goToGM =require('./assets/Utilities/GenerateMarkdown.js');
+const goToGM =require('./assets/Utilities/generateMarkdown.js');
 
 const questions = [
     {
