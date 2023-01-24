@@ -19,78 +19,82 @@ function renderLicenseBadge(license) {
 
 function renderLicenseLink(license) {
   if (license === "MIT") {
-    return "--- \n \n ## License \n \n https:opensource.org/licenses/MIT";
+    return "https:opensource.org/licenses/MIT";
   }
 
   if (license === "Apache 2.0") {
-    return "--- \n \n ## License \n \n https:opensource.org/licenses/Apache-2.0";
+    return "https:opensource.org/licenses/Apache-2.0";
   }
   if (license === "BSD 3-Clause") {
-    return "--- \n \n ## License \n \n https:opensource.org/licenses/BSD-3-Clause";
+    return "https:opensource.org/licenses/BSD-3-Clause";
   }
   if (license === "Boost Software License 1.0") {
-    return "--- \n \n ## License \n \n https:boost.org/License_1_0.txt";
+    return "https:boost.org/License_1_0.txt";
   }
 }
 
 function generateMarkdown(data) {
   return `# ${data.title}
+
+
 ___
-## Author
+## Author:
 
 ${data.Username}
 
-## Email 
+## Email: 
 
 ${data.email}
 
 ____
 
-## Table of Contents
+## Table of Contents:
 
 [Description](#Description)
 
-[Installation](##Installation)
+[Installation](#Installation)
 
-[Usage](Usage)
+[Usage](#Usage)
 
-[Tests](##Tests)
+[Tests](#Tests)
 
-[License](##License)
+[License](#License)
 
 ___
 
-## Description
+## Description:
 
 ${data.description}
 
 ___
 
-## Installation
+## Installation:
 ${data.install}
 
 ___
 
-## Usage
+## Usage:
 
 ${data.usage}
 
 ___
 
-## Tests
+## Tests:
 
 ${data.tests}
 
 ___
 
-## License
+## License:
 
-${renderLicenseBadge(data.license)} ${renderLicenseLink(data.license)}
+${renderLicenseBadge(data.license)} 
+
+${renderLicenseLink(data.license)}
 
 
 ___
 
-## Questions
+## Questions:
 
 * Any questions or concerns can be addressed to me at ${data.email}
 
