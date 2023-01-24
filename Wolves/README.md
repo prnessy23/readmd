@@ -4,7 +4,7 @@
 ___
 ## Author:
 
-Peter Wolfe
+Peter Wolf
 
 ## Email: 
 
@@ -28,7 +28,7 @@ ___
 
 ## Description:
 
-About wolves
+A site about wolves.
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 ## Usage:
 
-To study wolves.
+To promote the study of wolves.
 
 ___
 
