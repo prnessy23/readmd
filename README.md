@@ -1,12 +1,15 @@
-# READMD
+### READMD
+____
 An overview of how to create a README.md file using Node.js a
 Inquire 
-## User Story
+#### User Story
+___
 AS A developer
 I WANT a README generator
 SO THAT I can quickly create a professional README for a new 
 
-## Acceptance Criteria
+#### Acceptance Criteria
+___
 GIVEN a command-line application that accepts user input
 WHEN I am prompted for information about my application repos
 THEN a high-quality, professional README.md is generated with
@@ -37,7 +40,8 @@ me with additional questions
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 
-## Installation
+#### Installation
+___
 Clone this repo
 If you do not already have node.js download it here: https://nodejs.org/en/download/
 Open your terminal and cd into this cloned repo folder
@@ -48,11 +52,22 @@ cd .. out of assets and back into the root folder
 Now enter: node index.js
 Follow the prompts!
 
+#### Screenshot
+___
+
 ![alt text](Screenshot%202023-01-23%20at%207.22.15%20PM.jpg)
 
-## Usage
+#### Video
+___
+
+If you'd  like to watch a video of deployement, please click here, [Screencastify.](https://drive.google.com/file/d/1qmqELb-9YxA5aQlRz1rN-WuncZsqt6Kw/view)
+___
+
+#### Usage
 If you've followed the installation instructions correctly, the prompts will lead you through the question section. Once finished a folder will be written inside the current directory with the same as your project name you entered in the prompts as shown above. Inside that will be your README.md, move that into your current project folder.
 
-## Credits
+####
+
+#### Credits
 https://shields.io/ for the license badges.
 

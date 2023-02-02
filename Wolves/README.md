@@ -8,7 +8,7 @@ Peter Wolf
 
 ## Email: 
 
-peter@wolves.org
+pwolf@gmail.com
 
 ____
 
@@ -28,39 +28,39 @@ ___
 
 ## Description:
 
-A site about wolves.
+A site to study wolves.
 
 ___
 
 ## Installation:
-
+npm i
 
 ___
 
 ## Usage:
 
-To promote the study of wolves.
+To better understand wolves.
 
 ___
 
 ## Tests:
 
-
+npm test
 
 ___
 
 ## License:
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
-https:opensource.org/licenses/Apache-2.0
+https:opensource.org/licenses/MIT
 
 
 ___
 
 ## Questions:
 
-* Any questions or concerns can be addressed to me at peter@wolves.org
+* Any questions or concerns can be addressed to me at pwolf@gmail.com
 
 ___
 

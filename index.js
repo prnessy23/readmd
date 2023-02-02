@@ -24,7 +24,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'What commands should be run to install dependencies?(npm i)',
+        message: 'What commands should be run to install dependencies?',
         name: 'install',
     },
     {
@@ -36,7 +36,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'What command should be run for testing purposes.(npm test) ',
+        message: 'What command should be run for testing purposes.',
         name: 'tests',
     },
     {
